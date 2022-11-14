@@ -29,6 +29,7 @@ class TestMail extends Mailable
      */
     public function build()
     {
+        $name="jhhjk";
         return $this->subject('Message from Shopping Ecommerce')
             ->view('mail_template')
             ->with('emails', $this->emails);
